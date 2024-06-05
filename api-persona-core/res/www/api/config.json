@@ -1,0 +1,13 @@
+{
+  "urls": [
+	{
+	  "url": "./data/personaAPI.json",
+	  "name": "personaAPI"
+	}
+  ],
+  "title": "",
+  "subtitle": "",
+  "background": "",
+  "color": "",
+  "selectorBorderColor": ""
+}

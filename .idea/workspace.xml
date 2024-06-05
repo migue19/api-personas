@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa8cb889-ddf6-49c3-99f0-0ef6fc698998" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/miguelmexicano.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__com_esotericsoftware_kryo_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__com_esotericsoftware_minlog_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__com_esotericsoftware_reflectasm_1_11_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__com_google_code_gson_gson_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__com_sparkjava_spark_core_2_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__commons_codec_commons_codec_1_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__eu_medsea_mimeutil_mime_util_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__io_intino_alexandria_core_framework_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__io_intino_alexandria_exceptions_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__io_intino_alexandria_http_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__io_intino_alexandria_json_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__io_intino_alexandria_logger4j_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__io_intino_alexandria_logger_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__io_intino_alexandria_primitives_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__io_intino_alexandria_rest_3_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__io_intino_magritte_framework_5_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__io_intino_magritte_io_5_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__io_intino_tara_language_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_apache_httpcomponents_httpclient_4_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_apache_httpcomponents_httpmime_4_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_bouncycastle_bcmail_jdk15_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_bouncycastle_bcprov_jdk15_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_jetty_client_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_jetty_http_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_jetty_io_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_jetty_security_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_jetty_server_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_jetty_servlet_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_jetty_util_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_jetty_util_ajax_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_jetty_webapp_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_jetty_xml_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_websocket_websocket_api_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_websocket_websocket_client_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_websocket_websocket_common_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_websocket_websocket_server_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_eclipse_jetty_websocket_websocket_servlet_9_4_48_v20220622.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_objenesis_objenesis_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Intino__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-persona-core/api-persona-core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-persona-core/artifact.legio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-persona-core/src/com/intersphere/learn/Box.tara" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.legio" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2hSrSyjjOvexyU52WCG8HVvl7Cj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.api-persona-core-local.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="api-persona-core-local" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.intersphere.learn.apipersonacore.konos.Main" />
+      <module name="api-persona-core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa8cb889-ddf6-49c3-99f0-0ef6fc698998" name="Changes" comment="" />
+      <created>1717598323776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717598323776</updated>
+    </task>
+    <servers />
+  </component>
+</project>

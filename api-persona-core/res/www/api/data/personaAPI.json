@@ -1,0 +1,70 @@
+{
+  "swagger": "2.0",
+  "host": "www.example.org",
+  "basePath": "api/v1",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [
+    "text/plain; charset\u003dutf-8",
+    " application/json",
+    "multipart/form-data"
+  ],
+  "produces": [
+    "text/plain; charset\u003dutf-8",
+    " application/json",
+    "multipart/form-data"
+  ],
+  "paths": {
+    "/persona": {
+      "get": {
+        "description": "Obtener Personas",
+        "operationId": "Box_5_2_11104400210",
+        "consumes": [
+          "text/plain; charset\u003dutf-8",
+          " application/json",
+          "multipart/form-data"
+        ],
+        "produces": [
+          "text/plain; charset\u003dutf-8",
+          " application/json",
+          "multipart/form-data"
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/PersonModel"
+            }
+          },
+          "400": {
+            "description": ""
+          },
+          "404": {
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "PersonModel": {
+      "required": [
+        "name",
+        "lastName",
+        "age"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "age": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

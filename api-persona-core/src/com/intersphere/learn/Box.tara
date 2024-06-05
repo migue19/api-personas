@@ -1,0 +1,13 @@
+dsl konos
+
+Service personaAPI as REST(host = "{host}", basePath = "api/v1", port = "8080")
+	Resource(path = "/persona") persona
+		Get(description = "Obtener Personas")
+			Response as Object(schema = PersonModel)
+			Exception(BadRequest)
+            Exception(NotFound)
+
+Schema PersonModel
+	Attribute name as Text
+	Attribute lastName as Text
+	Attribute age as Integer
