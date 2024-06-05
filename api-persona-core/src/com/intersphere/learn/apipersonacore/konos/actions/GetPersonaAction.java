@@ -12,18 +12,7 @@ public class GetPersonaAction implements io.intino.alexandria.rest.RequestErrorH
 	public io.intino.alexandria.http.spark.SparkContext context;
 
 	public List<PersonModel> execute() throws BadRequest, NotFound {
-		List<PersonModel> list = new ArrayList();
-		PersonModel person = new PersonModel();
-		person.name("Miguel");
-		person.lastName("Mexicano");
-		person.age(32);
-		PersonModel person2 = new PersonModel();
-		person2.name("Juan");
-		person2.lastName("Perez");
-		person2.age(18);
-		list.add(person);
-		list.add(person2);
-		return list;
+		return box.getPersonList();
 	}
 
 	public void onMalformedRequest(Throwable e) throws AlexandriaException {

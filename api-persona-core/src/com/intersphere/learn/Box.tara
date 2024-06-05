@@ -6,8 +6,15 @@ Service personaAPI as REST(host = "{host}", basePath = "api/v1", port = "8080")
 			Response as Object(schema = PersonModel) List
 			Exception(BadRequest)
             Exception(NotFound)
-
+		Post(description = "Crear Persona")
+			Parameter(in = body, isRequired = true) request as Object (PersonModel)
+        	Response as Object(schema = ResponseModel)
+        	Exception(BadRequest)
+            Exception(NotFound)
 Schema PersonModel
 	Attribute name as Text
 	Attribute lastName as Text
 	Attribute age as Integer
+Schema ResponseModel
+	Attribute statusCode as Integer
+	Attribute statusMessage as Text

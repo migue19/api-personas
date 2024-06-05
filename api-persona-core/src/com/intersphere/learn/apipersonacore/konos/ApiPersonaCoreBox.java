@@ -1,7 +1,12 @@
 package com.intersphere.learn.apipersonacore.konos;
 
-public class ApiPersonaCoreBox extends AbstractBox {
+import com.intersphere.learn.apipersonacore.konos.schemas.PersonModel;
 
+import java.util.ArrayList;
+import java.util.List;
+
+public class ApiPersonaCoreBox extends AbstractBox {
+	private List<PersonModel> personList = new ArrayList();
 	public ApiPersonaCoreBox(String[] args) {
 		this(new ApiPersonaCoreConfiguration(args));
 	}
@@ -30,5 +35,16 @@ public class ApiPersonaCoreBox extends AbstractBox {
 
 	public void afterStop() {
 
+	}
+
+	public List<PersonModel> getPersonList() {
+		return personList;
+	}
+
+	public void setPersonList(List<PersonModel> personList) {
+		this.personList = personList;
+	}
+	public  void addPerson(PersonModel personModel) {
+		personList.add(personModel);
 	}
 }
