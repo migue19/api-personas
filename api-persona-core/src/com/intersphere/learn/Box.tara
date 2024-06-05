@@ -3,7 +3,7 @@ dsl konos
 Service personaAPI as REST(host = "{host}", basePath = "api/v1", port = "8080")
 	Resource(path = "/persona") persona
 		Get(description = "Obtener Personas")
-			Response as Object(schema = PersonModel)
+			Response as Object(schema = PersonModel) List
 			Exception(BadRequest)
             Exception(NotFound)
 

@@ -19,7 +19,7 @@
     "/persona": {
       "get": {
         "description": "Obtener Personas",
-        "operationId": "Box_5_2_11104400210",
+        "operationId": "Box_5_2_11640915024",
         "consumes": [
           "text/plain; charset\u003dutf-8",
           " application/json",
