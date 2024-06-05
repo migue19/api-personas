@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa8cb889-ddf6-49c3-99f0-0ef6fc698998" name="Changes" comment="Add List in box">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-persona-core/res/www/api/data/personaAPI.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-persona-core/res/www/api/data/personaAPI.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-persona-core/src/com/intersphere/learn/Box.tara" beforeDir="false" afterPath="$PROJECT_DIR$/api-persona-core/src/com/intersphere/learn/Box.tara" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-persona-core/src/com/intersphere/learn/apipersonacore/konos/ApiPersonaCoreBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-persona-core/src/com/intersphere/learn/apipersonacore/konos/ApiPersonaCoreBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-persona-core/src/com/intersphere/learn/apipersonacore/konos/actions/GetPersonaAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-persona-core/src/com/intersphere/learn/apipersonacore/konos/actions/GetPersonaAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-persona-core/src/com/intersphere/learn/apipersonacore/konos/actions/PostPersonaAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-persona-core/src/com/intersphere/learn/apipersonacore/konos/actions/PostPersonaAction.java" afterDir="false" />
-    </list>
+    <list default="true" id="fa8cb889-ddf6-49c3-99f0-0ef6fc698998" name="Changes" comment="Add Delete and Get By ID" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,13 +68,22 @@
       <option name="project" value="LOCAL" />
       <updated>1717609085182</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Delete and Get By ID">
+      <option name="closed" value="true" />
+      <created>1717613390762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717613390762</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Return list of Persons" />
     <MESSAGE value="Add List in box" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add List in box" />
+    <MESSAGE value="Add Delete and Get By ID" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Delete and Get By ID" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
