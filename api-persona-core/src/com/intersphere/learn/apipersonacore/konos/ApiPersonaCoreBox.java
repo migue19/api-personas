@@ -47,4 +47,12 @@ public class ApiPersonaCoreBox extends AbstractBox {
 	public  void addPerson(PersonModel personModel) {
 		personList.add(personModel);
 	}
+	public PersonModel getPersonById(Integer id) {
+		for(PersonModel person: personList) {
+			if(person.id() == id) {
+				return person;
+			}
+		}
+		return null;
+	}
 }

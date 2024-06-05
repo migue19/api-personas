@@ -12,9 +12,15 @@ public class PostPersonaAction implements io.intino.alexandria.rest.RequestError
 	public io.intino.alexandria.http.spark.SparkContext context;
 	public com.intersphere.learn.apipersonacore.konos.schemas.PersonModel request;
 
-	public ResponseModel execute() throws BadRequest, NotFound {
+	public com.intersphere.learn.apipersonacore.konos.schemas.ResponseModel execute() throws BadRequest, NotFound {
 		PersonModel request = this.request;
 		if(request != null) {
+			if(request.id() == 0) {
+				ResponseModel responseModel = new ResponseModel();
+				responseModel.statusCode(400);
+				responseModel.statusMessage("El ID no puede ser 0");
+				return responseModel;
+			}
 			if(request.age() == 0) {
 				ResponseModel responseModel = new ResponseModel();
 				responseModel.statusCode(400);
@@ -28,6 +34,7 @@ public class PostPersonaAction implements io.intino.alexandria.rest.RequestError
 //			responseModel.statusMessage("Json MalFormado");
 //			return responseModel;
 		}
+		//context.manager().response().status(201);
 		ResponseModel responseModel = new ResponseModel();
 		responseModel.statusCode(HttpStatus.SC_CREATED);
 		responseModel.statusMessage("Se creo Persona");
